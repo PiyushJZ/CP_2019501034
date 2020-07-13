@@ -10,4 +10,7 @@ import math
 
 
 def fun_find_int_roots(a, b, c):
-    return ((-b + math.sqrt(b**2 - 4*a*c))/(2*a*c), (-b - math.sqrt(b**2 - 4*a*c))/(2*a*c))
+    d = ((b**2) - (4*a*c))**0.5
+    root1 = int((-b + d)/(2*a))
+    root2 = int((-b - d)/(2*a))
+    return (min(root1, root2), max(root1, root2))
