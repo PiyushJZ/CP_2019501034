@@ -8,7 +8,4 @@
 
 def show_excitement():
     # Your code goes here!
-    excite = ""
-    for x in range(4):
-        excite += "I am super excited for this course!" + " "
-    return excite
+    return "I am super excited for this course!" * 5
