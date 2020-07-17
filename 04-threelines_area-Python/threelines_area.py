@@ -10,4 +10,4 @@ def fun_threelines_area(a, b, c):
     base = (c / 2) * (c / 2)
     height = math.sqrt(hyp - base)
 
-    return = 0.5 * c * height
+    return 0.5 * c * height
