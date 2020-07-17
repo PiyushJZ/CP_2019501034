@@ -37,8 +37,6 @@ def main():
     locations["North America"]["USA"].append("Atlanta")
     locations["Asia"] = {"India": ["Bangalore"], "China": ["Shanghai"]}
     locations["Africa"] = {"Egypt": ["Cairo"]}
-    print(sortUSA())
-    print(alphaAsia())
 
 
 def sortUSA():
@@ -50,7 +48,7 @@ def alphaAsia():
     lst = []
     for country in locations["Asia"]:
         for city in locations["Asia"][country]:
-            lst.append(f"{ country } - { city }")
+            lst.append(f"{ city } - { country }")
     lst.sort()
     return "\n".join(lst)
 
