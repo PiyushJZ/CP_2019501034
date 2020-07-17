@@ -65,6 +65,3 @@ def power(x, y):
         return(power(x, y // 2) * power(x, y // 2))
     else:
         return(x * power(x, y // 2) * power(x, y // 2))
-
-
-print(fun_nth_lefttruncatableprime(25))
