@@ -15,6 +15,17 @@ with them:
 Everything else has 0 points.
 Use the test cases below to guide you!"""
 
+
 class Classy(object):
     def __init__(self):
         self.items = []
+        self.classy_items = {"tophat": 2, "bowtie": 4, "monocle": 5}
+        self.classiness = 0
+
+    def Classy(item str):
+        self.items.append(item)
+        if item in self.classy_items:
+            self.classiness += classy_items[item]
+
+    def classiness():
+        return self.classiness
