@@ -65,20 +65,3 @@ class LinkedList(object):
             if current_node == value:
                 prev_node.next = current_node.next
             prev_node, current_node = current_node, current_node.next
-
-def main():
-    e1 = Element(1)
-    e2 = Element(2)
-    e3 = Element(3)
-    ll = LinkedList(e1)
-    ll.append(e2)
-    ll.append(e3)
-    e4 = Element(4)
-    ll.insert(e4, 3)
-    ll.delete(1)
-    print("1",ll.get_position(1).value)
-    print("2",ll.get_position(2).value)
-    print("3",ll.get_position(3).value)
-
-if __name__ == "__main__":
-    main()
